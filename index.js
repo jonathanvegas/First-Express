@@ -3,7 +3,7 @@ import express, { response } from 'express'; //step 2
 
 //initialize express server
 const app = express();
-app.use(express.json()); //add this lane when use json is postman
+app.use(express.json()); //**** add this lane when use json is postman ****
 
 //add new student (in theory)
 app.post('/students', (request, response) => { 
